@@ -1,0 +1,73 @@
+body {
+    width: 100vw;
+    height: 200vh;
+    margin: 0px;
+    background-color: lightgrey;
+}
+h1 {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    position: sticky;
+    margin-top: 0px;
+    width: 100%;
+    top:0px;
+    left:0px;
+    z-index:7;
+}
+table {
+    width:900px;
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+}
+
+
+table td {
+    border: 1px solid darkorange;
+}
+
+
+thead tr th{
+    padding: 15px;
+    background: lightsalmon;
+    font-size: large;
+    color: #111;
+    border: 1px solid darkorange;
+    position: sticky;
+    top: 65px;
+
+}
+
+tbody tr td{
+    padding: 10px;
+}
+
+
+tbody tr:nth-of-type(even) {
+    background: lightgoldenrodyellow;
+}
+
+tbody tr:nth-of-type(odd) {
+    background: lightgray;
+    }
+
+tbody a{
+    color: #111;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px darkorange;
+}
+tbody a:hover{
+    color: #111;
+    text-decoration: none;
+    text-shadow: 1px 2px 3px #777;
+}
+
+tbody tr td:nth-child(1){
+    box-shadow:1px 2px 7px rgba(255, 140, 0, 0.5);
+    /* shadow: 1px 1px 3px darkorange; */
+}
+:hover tbody tr td:hover:nth-child(1){
+    box-shadow:1px 3px 7px rgba(255, 140, 0, 0.9);
+    /* shadow: 1px 1px 3px darkorange; */
+}
